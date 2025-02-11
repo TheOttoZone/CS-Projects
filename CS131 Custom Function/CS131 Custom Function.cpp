@@ -49,7 +49,7 @@ int main()
 	
 	cout << "Enter in a % grade, then choose either [N]o curve, [S]tandard curve, or Square [R]oot curve, then highest score in the class:";
 	cin >> numGrade >> curveType >> curvePercent;
-	cout << numGrade << "% is a " << translateGrade(numGrade, curveType, curvePercent) << "\n";
+	cout << numGrade << "% is a " << translateGrade(numGrade, curveType, curvePercent) << endl;
 
 	system("pause");
 	return(0);
