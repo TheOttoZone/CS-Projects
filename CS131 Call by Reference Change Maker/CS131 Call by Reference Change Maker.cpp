@@ -26,7 +26,7 @@ int main()
     uniform_real_distribution<double> distribution(0.01, 100); // generates a random number between 0.01 and 100 with double floating point precision
 
     // initialize variables and round the cost equal to a random number to two decimal places.
-    double amount, owe, cost = cost = round(distribution(generator) * 100) / 100;
+    double amount, owe, cost = round(distribution(generator) * 100) / 100;
     int dollars, quarters, dimes, nickels, cents;
     
     cout.precision(2); // set cout to only show 2 decimal places. $69.69000000 is ugly!
@@ -41,7 +41,7 @@ int main()
     }
     
     // subtract the cost from the amount given to determine our leftover amount we need to separate into coins
-    amount = amount - cost + 0.001;
+    amount = amount - cost + 0.002;
     makeChange(amount, dollars, quarters, dimes, nickels, cents);
     
     // final output
