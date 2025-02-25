@@ -18,6 +18,7 @@ int main()
 	 //1. Initialize arrays
 	int scores[ARRAY_SIZE];
 	string names[ARRAY_SIZE];
+	
 	//2. Prompt user for scores and names
 	cout << "Input 5 student names: ";
 	for (int i = 0; i < ARRAY_SIZE; i++) {
