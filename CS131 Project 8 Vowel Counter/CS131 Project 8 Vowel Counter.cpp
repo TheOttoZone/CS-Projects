@@ -27,4 +27,20 @@ int main()
     }
 
     cout << endl << "There are " << wordVowelCount << " vowels in " << word << "." << endl;
+
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    string line;
+    int lineVowelCount = 0;
+    cout << "Type anything here to have its vowels counted: ";
+    cin >> line;
+
+    for (int i = 0; i <= line.size(); i++) {
+        for (int ii = 0; ii <= sizeof(vowels); ii++) {
+            if (line[i] == vowels[ii]) {
+                lineVowelCount++;
+            }
+        }
+    }
+    cout << lineVowelCount;
 }
