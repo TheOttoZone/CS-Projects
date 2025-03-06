@@ -54,5 +54,8 @@ int main()
     }
 
     // output vowel count
-    cout << "There are " << lineVowelCount << " vowels in that sentence you entered!";
+    cout << "There are " << lineVowelCount << " vowels in that sentence you entered!" << endl;
+
+    system("pause");
+    return 0;
 }
