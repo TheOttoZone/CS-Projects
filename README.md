@@ -1,2 +1,2 @@
 # CS Projects
-Random Projects from my CS classes!
+Decided to upload my CS assignments here for safekeeping!
